@@ -4,7 +4,7 @@
 
 A api foi desenvolvida com laravel 9 e laravel Sail para rodar localmente com o docker
 
-#### instação de depedências
+#### instalação de depedências
 ```
 docker run --rm \
     -u "$(id -u):$(id -g)" \
@@ -13,7 +13,7 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
-#### Copiei o arquivo ".env.example" e crie um novo chamado ".env" na raiz do projeto e altere os valores das seguintes variáveis:
+#### Copie o arquivo ".env.example" e crie um novo chamado ".env" na raiz do projeto e altere os valores das seguintes variáveis:
 ```
 DB_CONNECTION=mysql
 DB_HOST=mariadb
